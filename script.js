@@ -6,7 +6,7 @@ function toggleMode() {
 
     if(html.classList.contains('light')) {
 
-    
+     img.setAttribute("src", "assets/perfil.png");
 
     } else {
         img.setAttribute("src", "./assets/perfil.png")
