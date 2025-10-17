@@ -9,7 +9,7 @@ function toggleMode() {
     
 
     } else {
-        img.setAttribute("src", "./assets/Sem Título.png")
+        img.setAttribute("src", "./assets/perfil.png")
 
     }
  
