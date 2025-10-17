@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 360px;
+  box-sizing: border-box;
 }
 
 :root {
@@ -76,11 +76,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2;
+  animation: slide-back 0.2s;
 }
 
 .light #switch button {
-   animation: slinde-in 0.4s forwards;
+   animation: slide-in 0.4s forwards;
    right: 0;
     left: initial;
 
@@ -172,7 +172,7 @@ footer {
     --bg-url: url(assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(assets/bg-desktop-ligth.jpg);
+    --bg-url: url(assets/bg-desktop-light.jpg);
   }
 }
 
